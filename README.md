@@ -24,7 +24,9 @@ The nodes communicate to a central Raspberry Pi running InfluxDB time-series dat
 
 1. Install & configure InfluxDB Docker Image
 2. Install & configure Grafana Docker Image
-3. Configure room-specific areas and flash Room nodes
+3. Assemble room nodes
+4. Setup Room node names
+5. Flash Room nodes
 
 TODO: Add detail about Docker
 
@@ -48,7 +50,7 @@ A: The Wemos D1 mini is availble on sites like Ebay.com or AliExpress.com.
 #### Q: Can I install without Docker?
 
 #### Q: Which Raspberry Pi version do I need?
-A: This has been tested on (Raspberry Pi 2 Model B)[https://www.raspberrypi.org/products/raspberry-pi-2-model-b/], but later versions of the Raspberry Pi should work.
+A: This has been tested on [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/), but later versions of the Raspberry Pi should work.
 
 #### Q: Why do you use UDP instead of TCP? MQTT?
 A: UDP is a session-less protocol which reduces network overhead which reduces transmission time and increases battery life as compared to TCP. Of course there is a trade-off: data transmission _may_ be less robust if there are physical layer issues such as packet loss or wireless interference. Similarily, MQTT introduces requires external libraries and additional server configuration, but can provide improved robustness. Ultimately UDP was chosen for simplicity, but feel free to fork and implement another protocol!
