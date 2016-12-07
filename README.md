@@ -32,7 +32,7 @@ TODO: Add detail about Docker
 
 ## TODO
 
-1. Add arduino code
+``1. Add arduino code``
 2. Add docker images
 3. Add photos & screenshots to README
 4. Add links to README
