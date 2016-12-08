@@ -2,7 +2,7 @@
 
 Wi-Fi Temperature in Every Room of your house
 
-Room Sense is one of many IoT solutions for multi-room temperature montioring. In this project, emphasis is placed on applying modern, affordable components like the ESP8266 and Raspberry Pi while maximizing ease-of-use.
+Room Sense is one of many IoT solutions for multi-room temperature monitoring. In this project, emphasis is placed on applying modern, affordable components like the ESP8266 and Raspberry Pi while maximizing ease-of-use.
 
 ## Features
 
@@ -32,9 +32,12 @@ TODO: Add detail about Docker
 
 ## TODO
 
-1. Add arduino code
+1. ~~Add arduino code~~
+
 2. Add docker images
+
 3. Add photos & screenshots to README
+
 4. Add links to README
 
 ## FAQ
