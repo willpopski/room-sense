@@ -2,6 +2,10 @@
 
 Wi-Fi Temperature in Every Room of your house
 
+[Resulting Graph](images/screenshot_graphcs.png)
+
+[Room Node](images/photo_room_node.jpg)
+
 Room Sense is one of many IoT solutions for multi-room temperature monitoring. In this project, emphasis is placed on applying modern, affordable components like the ESP8266 and Raspberry Pi while maximizing ease-of-use.
 
 ## Features
