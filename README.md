@@ -4,8 +4,6 @@ Wi-Fi Temperature in Every Room of your house
 
 [![](images/title_frame.png)](https://vimeo.com/195057500 "Room Sense IoT")
 
-![](images/photo_room_node.jpg)
-
 Room Sense is one of many IoT solutions for multi-room temperature monitoring. In this project, emphasis is placed on applying modern, affordable components like the ESP8266 and Raspberry Pi while maximizing ease-of-use.
 
 ## Features
@@ -21,6 +19,8 @@ Room Sense is one of many IoT solutions for multi-room temperature monitoring. I
     ESP8266 (Wemos D1 Mini) ----> InfluxDB (RPi) <----> Grafana (RPi) <----> Web Browser <----> User
 
 Each Room node uses the popular WiFi Espressif ESP8266 SoC running Arduino code. The Wemos D1 Mini dev board is used based on it's compact size, low-cost, modularity, and ability to be powered directly by USB charger.
+
+![](images/photo_room_node.jpg)
 
 The nodes communicate to a central Raspberry Pi running InfluxDB time-series database. Grafana allows you to create dashboards and browse data in desktop or mobile browser.
 
